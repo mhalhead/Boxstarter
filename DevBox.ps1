@@ -61,7 +61,9 @@ $Boxstarter.AutoLogin=$true # Save my password securely and auto-login after a r
 #endregion
 
 #region Git
-    cinst poshgit    
-    cinst kdiff3
-    cinst gitextensions
+    choco install githubforwindows
+    choco install poshgit    
+    choco install kdiff3
+    choco install gitextensions
+    choco install git-credential-winstore
 #endregion
